@@ -1,0 +1,49 @@
+2017-09-22 20:00:16,788 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:00:16,789 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:00:16,789 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TCAddCoursesModule       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-09-22 20:00:16,789 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:00:16,789 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:00:16,823 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:00:16,824 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:00:16,824 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TCAddCoursesModule       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-09-22 20:00:16,824 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:00:16,824 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:00:21,730 INFO  [Log] New driver instantiated 
+2017-09-22 20:00:22,151 INFO  [Log] New driver instantiated 
+2017-09-22 20:00:22,719 INFO  [Log] Implicit wait applied on the driver for 30 seconds 
+2017-09-22 20:00:22,771 INFO  [Log] Implicit wait applied on the driver for 30 seconds 
+2017-09-22 20:00:27,173 INFO  [Log] Web application launched successfully 
+2017-09-22 20:00:28,098 INFO  [Log] Web application launched successfully 
+2017-09-22 20:00:31,604 INFO  [Log] User name 'prakash.chand@dublabs.com' entered 
+2017-09-22 20:00:32,371 INFO  [Log] User name 'prakash.chand@dublabs.com' entered 
+2017-09-22 20:00:32,851 INFO  [Log] password 'pcpc' entered 
+2017-09-22 20:00:33,381 INFO  [Log] password 'pcpc' entered 
+2017-09-22 20:00:38,584 INFO  [Log] Clicked on login button 
+2017-09-22 20:00:40,091 INFO  [Log] Clicked on login button 
+2017-09-22 20:01:33,568 INFO  [Log] Add Button Clicked 
+2017-09-22 20:01:34,721 INFO  [Log] Courses Module Button Clicked 
+2017-09-22 20:01:37,449 INFO  [Log] Add Button Clicked 
+2017-09-22 20:01:39,413 INFO  [Log] Courses Module Button Clicked 
+2017-09-22 20:02:06,376 INFO  [Log] Courses Module Image Replaced. 
+2017-09-22 20:02:14,692 INFO  [Log] Courses Module Image Replaced. 
+2017-09-22 20:02:31,750 INFO  [Log] Data has Entered in Courses Module 
+2017-09-22 20:02:31,926 INFO  [Log] Data has Entered In Courses Module 
+2017-09-22 20:02:34,963 INFO  [Log] Courses Module Plist Verification Starts 
+2017-09-22 20:03:33,523 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:03:33,524 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:03:33,524 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TCAddCoursesModule       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-09-22 20:03:33,524 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:03:33,524 INFO  [Log] **************************************************************************************** 
+2017-09-22 20:03:37,151 INFO  [Log] New driver instantiated 
+2017-09-22 20:03:37,776 INFO  [Log] Implicit wait applied on the driver for 30 seconds 
+2017-09-22 20:03:43,070 INFO  [Log] Web application launched successfully 
+2017-09-22 20:03:45,498 INFO  [Log] User name 'prakash.chand@dublabs.com' entered 
+2017-09-22 20:03:46,064 INFO  [Log] password 'pcpc' entered 
+2017-09-22 20:03:51,053 INFO  [Log] Clicked on login button 
+2017-09-22 20:04:48,227 INFO  [Log] Add Button Clicked 
+2017-09-22 20:04:49,349 INFO  [Log] Courses Module Button Clicked 
+2017-09-22 20:05:25,822 INFO  [Log] Courses Module Image Replaced. 
+2017-09-22 20:05:38,592 INFO  [Log] Data has Entered in Courses Module 
+2017-09-22 20:05:38,739 INFO  [Log] Data has Entered In Courses Module 
+2017-09-22 20:05:41,317 INFO  [Log] Courses Module Plist Verification Starts 
+2017-09-22 20:05:59,502 INFO  [Log] Courses Module Plist Verification Ends 

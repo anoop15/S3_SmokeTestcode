@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite3]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_ForgotPassword_UI">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Main"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_ForgotPassword_UI -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_LoginPageURL">
+        <methods>
+          <include name="Main"/>
+          <include name="afterMethod"/>
+          <include name="LoginpageURLVerification" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_LoginPageURL -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_Roles">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Main"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_Roles -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_LoginPageElementVerification">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Main"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_LoginPageElementVerification -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_ValidLogin">
+        <methods>
+          <include name="LoginTest" invocation-numbers="1"/>
+          <include name="Main"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_ValidLogin -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_LoginBlank">
+        <methods>
+          <include name="Main"/>
+          <include name="afterMethod"/>
+          <include name="LoginErrorMessage" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_LoginBlank -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_ForgotPasswordDismiss">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Main"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_ForgotPasswordDismiss -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_InvalidLogin">
+        <methods>
+          <include name="Main"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_InvalidLogin -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_ForgotPassword">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Main"/>
+          <include name="LoginErrorMessage" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_ForgotPassword -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_login_RememberMe">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Main"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_login_RememberMe -->
+      <class name="com.s3.TestCasesPhase2.Login.Test_Login_Logout">
+        <methods>
+          <include name="Main"/>
+          <include name="afterMethod"/>
+          <include name="LoginErrorMessage" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Login.Test_Login_Logout -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite3] -->

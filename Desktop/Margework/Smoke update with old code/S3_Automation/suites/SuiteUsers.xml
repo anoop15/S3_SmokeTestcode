@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UsersSuite" parallel="false">
+	<test name="User Test Suite">
+			 <classes>
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersUserProfileElementVerification" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersCreate_NewUser_popupVerification" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_UI_verification" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersRequiredfields_verification_NewUser" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_onProfilepage" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersSearchUser" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersEditUser" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersDeleteUserConfirmationMessage_UI" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersDeleteUser" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersSearchInvalidUser" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupVisiblityVerification" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupUIVerification" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MendetoryFields" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MismatchPasswordError" />
+				<class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_ValidInput" /> 
+				
+			</classes> 
+	
+	
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

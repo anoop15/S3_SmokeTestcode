@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  User Test Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>User Test Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 14 16:32:08 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>451 seconds (451096 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersCreate_NewUser_popupVerification.CreateNewUserPopupVerification()'><b>CreateNewUserPopupVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersCreate_NewUser_popupVerification<br>Parameters: prakash.chand@dublabs.com, pcpc, Yes</td>
+<td></td>
+<td>8</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersCreate_NewUser_popupVerification@6895a785</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser.CreateNewUserVerification()'><b>CreateNewUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser<br>Parameters: prakash.chand@dublabs.com, pcpc, No, DubS3test, User, testdub123@gmail.com, DUB System Admin, All, All, All, Daily, Save</td>
+<td></td>
+<td>24</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser@27a5f880</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersDeleteUserConfirmationMessage_UI.DeleteUserconfirmationMessage()'><b>DeleteUserconfirmationMessage</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersDeleteUserConfirmationMessage_UI<br>Parameters: prakash.chand@dublabs.com, pcpc, yes, Email, anoops@astegic.com</td>
+<td></td>
+<td>11</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersDeleteUserConfirmationMessage_UI@1f7030a6</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersDeleteUser.DeleteuserVerification()'><b>DeleteuserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersDeleteUser<br>Parameters: prakash.chand@dublabs.com, pcpc, No, DubS3test, User, testdub123@gmail.com, DUB System Admin, All, All, All, Daily, Save</td>
+<td></td>
+<td>25</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersDeleteUser@56aac163</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersEditUser.EditUserVerification()'><b>EditUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersEditUser<br>Parameters: prakash.chand@dublabs.com, pcpc, yes, anoops@astegic.com, AnoopNew, sharmaNew, Partner Admin, robin, All, All, Daily</td>
+<td></td>
+<td>45</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersEditUser@2d6eabae</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_UI_verification.NewUserUIVerification()'><b>NewUserUIVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_UI_verification<br>Parameters: prakash.chand@dublabs.com, pcpc, No, DUB System Admin, Partner Admin, Robin</td>
+<td></td>
+<td>75</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_UI_verification@5a1c0542</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_onProfilepage.NewUseronProfilePage()'><b>NewUseronProfilePage</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_onProfilepage<br>Parameters: prakash.chand@dublabs.com, pcpc, No, DubS3test, User, testdub123@gmail.com, DUB System Admin, All, All, All, Daily, Save</td>
+<td></td>
+<td>24</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_onProfilepage@64729b1e</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersRequiredfields_verification_NewUser.RequiredFieldsVerification()'><b>RequiredFieldsVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersRequiredfields_verification_NewUser<br>Parameters: prakash.chand@dublabs.com, pcpc, Yes</td>
+<td></td>
+<td>9</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersRequiredfields_verification_NewUser@396f6598</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersSearchUser.SearchUserVerification()'><b>SearchUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersSearchUser<br>Parameters: prakash.chand@dublabs.com, pcpc, No, email, prakash.chand@dublabs.com</td>
+<td></td>
+<td>13</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersSearchUser@23faf8f2</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersSearchInvalidUser.SearchUserVerification()'><b>SearchUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersSearchInvalidUser<br>Parameters: prakash.chand@dublabs.com, pcpc, yes, Invalid@dublabs.com</td>
+<td></td>
+<td>10</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersSearchInvalidUser@394e1a0f</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupVisiblityVerification.SearchUserVerification()'><b>SearchUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupVisiblityVerification<br>Parameters: prakash.chand@dublabs.com, pcpc, yes, anoops@astegic.com</td>
+<td></td>
+<td>11</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupVisiblityVerification@4e7dc304</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupUIVerification.SearchUserVerification()'><b>SearchUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupUIVerification<br>Parameters: prakash.chand@dublabs.com, pcpc, yes, anoops@astegic.com</td>
+<td></td>
+<td>12</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupUIVerification@184f6be2</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MendetoryFields.SearchUserVerification()'><b>SearchUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MendetoryFields<br>Parameters: prakash.chand@dublabs.com, pcpc, yes, anoops@astegic.com</td>
+<td></td>
+<td>11</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MendetoryFields@5f282abb</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MismatchPasswordError.SearchUserVerification()'><b>SearchUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MismatchPasswordError<br>Parameters: prakash.chand@dublabs.com, pcpc, yes, anoops@astegic.com, anoop123, anoop123#</td>
+<td></td>
+<td>11</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MismatchPasswordError@1d29cf23</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_ValidInput.SearchUserVerification()'><b>SearchUserVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_ValidInput<br>Parameters: prakash.chand@dublabs.com, pcpc, yes, anoops@astegic.com, anoop123, anoop123</td>
+<td></td>
+<td>11</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_ValidInput@48503868</td></tr>
+<tr>
+<td title='com.s3.TestCasesPhase2.Users.Test_UsersUserProfileElementVerification.UserProfilePageVerification()'><b>UserProfilePageVerification</b><br>Test class: com.s3.TestCasesPhase2.Users.Test_UsersUserProfileElementVerification<br>Parameters: prakash.chand@dublabs.com, pcpc, Yes</td>
+<td></td>
+<td>8</td>
+<td>com.s3.TestCasesPhase2.Users.Test_UsersUserProfileElementVerification@10bbd20a</td></tr>
+</table><p>
+</body>
+</html>

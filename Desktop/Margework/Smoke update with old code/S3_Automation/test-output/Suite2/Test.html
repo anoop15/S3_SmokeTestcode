@@ -1,0 +1,632 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/2/1</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 22 15:44:56 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>4685 seconds (4685732 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.s3.testCases.TCAddCoursesModule.close()'><b>close</b><br>Test class: com.s3.testCases.TCAddCoursesModule</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a id=&quot;logoutBtn&quot;&gt;...&lt;/a&gt; is not clickable at point (1085, 40). Other element would receive the click: &lt;div class=&quot;modal-dialog&quot; id=&quot;popup&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 83 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;MacMini01.local&apos;, ip: &apos;192.168.1.117&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/q4/l5nzj80j61g2fg9h2vjh1l340000gq/T/.org.chromium.Chromium.oMP9qM}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 519ac2267e466a186f3328ee19066228
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.s3.businessLogic.Login.logout(Login.java:120)
+	at com.s3.testCases.TCAddCoursesModule.close(TCAddCoursesModule.java:86)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace986345602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace986345602'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a id=&quot;logoutBtn&quot;&gt;...&lt;/a&gt; is not clickable at point (1085, 40). Other element would receive the click: &lt;div class=&quot;modal-dialog&quot; id=&quot;popup&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 83 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;MacMini01.local&apos;, ip: &apos;192.168.1.117&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/q4/l5nzj80j61g2fg9h2vjh1l340000gq/T/.org.chromium.Chromium.oMP9qM}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 519ac2267e466a186f3328ee19066228
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.s3.businessLogic.Login.logout(Login.java:120)
+	at com.s3.testCases.TCAddCoursesModule.close(TCAddCoursesModule.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>com.s3.testCases.TCAddCoursesModule@2f686d1f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.s3.testCases.TCAddCoursesModule.loginConfiguration()'><b>loginConfiguration</b><br>Test class: com.s3.testCases.TCAddCoursesModule</td>
+<td></td>
+<td>0</td>
+<td>com.s3.testCases.TCAddCoursesModule@2f686d1f</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddCoursesModule.close()'><b>close</b><br>Test class: com.s3.testCases.TCAddCoursesModule</td>
+<td></td>
+<td>0</td>
+<td>com.s3.testCases.TCAddCoursesModule@2f686d1f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.s3.testCases.TCAddCoursesModule.AddCoursesModule()'><b>AddCoursesModule</b><br>Test class: com.s3.testCases.TCAddCoursesModule</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.s3.testCases.TCAddCoursesModule.AddCoursesModule(TCAddCoursesModule.java:74)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace322073527", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace322073527'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.s3.testCases.TCAddCoursesModule.AddCoursesModule(TCAddCoursesModule.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>95</td>
+<td>com.s3.testCases.TCAddCoursesModule@2f686d1f</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddEventsModule.AddEventModule()'><b>AddEventModule</b><br>Test class: com.s3.testCases.TCAddEventsModule</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.s3.testCases.TCAddEventsModule.AddEventModule(TCAddEventsModule.java:76)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace279959479", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace279959479'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.s3.testCases.TCAddEventsModule.AddEventModule(TCAddEventsModule.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>97</td>
+<td>com.s3.testCases.TCAddEventsModule@3f49dace</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddDashboardModule.addDashboardModule()'><b>addDashboardModule</b><br>Test class: com.s3.testCases.TCAddDashboardModule</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.s3.testCases.TCAddDashboardModule.addDashboardModule(TCAddDashboardModule.java:80)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace774895691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace774895691'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.s3.testCases.TCAddDashboardModule.addDashboardModule(TCAddDashboardModule.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>95</td>
+<td>com.s3.testCases.TCAddDashboardModule@5700d6b1</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule()'><b>addNewPeopleSoftModule</b><br>Test class: com.s3.testCases.TCAddPeopleSoftModule</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule(TCAddPeopleSoftModule.java:76)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace75275906", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace75275906'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule(TCAddPeopleSoftModule.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>63</td>
+<td>com.s3.testCases.TCAddPeopleSoftModule@73ad2d6</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule()'><b>addNewPeopleSoftModule</b><br>Test class: com.s3.testCases.TCAddPeopleSoftModule</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule(TCAddPeopleSoftModule.java:76)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace356987202", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace356987202'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule(TCAddPeopleSoftModule.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1171)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>63</td>
+<td>com.s3.testCases.TCAddPeopleSoftModule@73ad2d6</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule()'><b>addNewPeopleSoftModule</b><br>Test class: com.s3.testCases.TCAddPeopleSoftModule</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule(TCAddPeopleSoftModule.java:76)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1999648297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1999648297'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.s3.testCases.TCAddPeopleSoftModule.addNewPeopleSoftModule(TCAddPeopleSoftModule.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1171)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>59</td>
+<td>com.s3.testCases.TCAddPeopleSoftModule@73ad2d6</td></tr>
+<tr>
+<td title='com.s3.testCases.TCDeleteAddedModule.deleteModule()'><b>deleteModule</b><br>Test class: com.s3.testCases.TCDeleteAddedModule</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.s3.testCases.TCDeleteAddedModule.deleteModule(TCDeleteAddedModule.java:71)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace72608369", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace72608369'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.s3.testCases.TCDeleteAddedModule.deleteModule(TCDeleteAddedModule.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>27</td>
+<td>com.s3.testCases.TCDeleteAddedModule@6e1567f1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.s3.testCases.TCAddAppModule.AddAppModule()'><b>AddAppModule</b><br>Test class: com.s3.testCases.TCAddAppModule</td>
+<td></td>
+<td>128</td>
+<td>com.s3.testCases.TCAddAppModule@4b952a2d</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddDiningHallModule.AddDiningHallModule()'><b>AddDiningHallModule</b><br>Test class: com.s3.testCases.TCAddDiningHallModule</td>
+<td></td>
+<td>121</td>
+<td>com.s3.testCases.TCAddDiningHallModule@5702b3b1</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddDirectoryModule.AddDirectory()'><b>AddDirectory</b><br>Test class: com.s3.testCases.TCAddDirectoryModule</td>
+<td></td>
+<td>122</td>
+<td>com.s3.testCases.TCAddDirectoryModule@31a5c39e</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddEmergencyModule.AddEmergencyModule()'><b>AddEmergencyModule</b><br>Test class: com.s3.testCases.TCAddEmergencyModule</td>
+<td></td>
+<td>149</td>
+<td>com.s3.testCases.TCAddEmergencyModule@72d818d1</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddEventsModule.AddEventModule()'><b>AddEventModule</b><br>Test class: com.s3.testCases.TCAddEventsModule</td>
+<td></td>
+<td>75</td>
+<td>com.s3.testCases.TCAddEventsModule@3f49dace</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddImageGalleryModule.AddImageGalleryModule()'><b>AddImageGalleryModule</b><br>Test class: com.s3.testCases.TCAddImageGalleryModule</td>
+<td></td>
+<td>127</td>
+<td>com.s3.testCases.TCAddImageGalleryModule@1e397ed7</td></tr>
+<tr>
+<td title='com.s3.testCases.TCCopyMyAppliction.CopyMyApplication()'><b>CopyMyApplication</b><br>Test class: com.s3.testCases.TCCopyMyAppliction</td>
+<td></td>
+<td>16</td>
+<td>com.s3.testCases.TCCopyMyAppliction@7085bdee</td></tr>
+<tr>
+<td title='com.s3.testCases.TCDeleteMyApplication.DeleteMyApplication()'><b>DeleteMyApplication</b><br>Test class: com.s3.testCases.TCDeleteMyApplication</td>
+<td></td>
+<td>19</td>
+<td>com.s3.testCases.TCDeleteMyApplication@1ed4004b</td></tr>
+<tr>
+<td title='com.s3.testCases.TCEditMyApplications.EditMyApplication()'><b>EditMyApplication</b><br>Test class: com.s3.testCases.TCEditMyApplications</td>
+<td></td>
+<td>36</td>
+<td>com.s3.testCases.TCEditMyApplications@4bec1f0c</td></tr>
+<tr>
+<td title='com.s3.testCases.TCInfo.Info()'><b>Info</b><br>Test class: com.s3.testCases.TCInfo</td>
+<td></td>
+<td>108</td>
+<td>com.s3.testCases.TCInfo@3fee9989</td></tr>
+<tr>
+<td title='com.s3.utility.SendSmokeReport.ReportSend()'><b>ReportSend</b><br>Test class: com.s3.utility.SendSmokeReport</td>
+<td></td>
+<td>5</td>
+<td>com.s3.utility.SendSmokeReport@56ef9176</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddAdmittedlyModule.addAdmittedlyModule()'><b>addAdmittedlyModule</b><br>Test class: com.s3.testCases.TCAddAdmittedlyModule</td>
+<td></td>
+<td>146</td>
+<td>com.s3.testCases.TCAddAdmittedlyModule@490ab905</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddBannerEnrollmentModule.addBannerEnrollmentModule()'><b>addBannerEnrollmentModule</b><br>Test class: com.s3.testCases.TCAddBannerEnrollmentModule</td>
+<td></td>
+<td>147</td>
+<td>com.s3.testCases.TCAddBannerEnrollmentModule@27c20538</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddBurserModule.addBurserModule()'><b>addBurserModule</b><br>Test class: com.s3.testCases.TCAddBurserModule</td>
+<td></td>
+<td>77</td>
+<td>com.s3.testCases.TCAddBurserModule@1ce92674</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddDashboardModule.addDashboardModule()'><b>addDashboardModule</b><br>Test class: com.s3.testCases.TCAddDashboardModule</td>
+<td></td>
+<td>74</td>
+<td>com.s3.testCases.TCAddDashboardModule@5700d6b1</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddMapsModule.addMapModule()'><b>addMapModule</b><br>Test class: com.s3.testCases.TCAddMapsModule</td>
+<td></td>
+<td>131</td>
+<td>com.s3.testCases.TCAddMapsModule@5cb9f472</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddRSSModules.addNewRSSModule()'><b>addNewRSSModule</b><br>Test class: com.s3.testCases.TCAddRSSModules</td>
+<td></td>
+<td>115</td>
+<td>com.s3.testCases.TCAddRSSModules@59494225</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddNewsModule.addNewsVideoSportsModule()'><b>addNewsVideoSportsModule</b><br>Test class: com.s3.testCases.TCAddNewsModule</td>
+<td></td>
+<td>118</td>
+<td>com.s3.testCases.TCAddNewsModule@5f2108b5</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddVideosModule.addNewsVideoSportsModule()'><b>addNewsVideoSportsModule</b><br>Test class: com.s3.testCases.TCAddVideosModule</td>
+<td></td>
+<td>117</td>
+<td>com.s3.testCases.TCAddVideosModule@25bbe1b6</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddSportsModule.addNewsVideoSportsModule()'><b>addNewsVideoSportsModule</b><br>Test class: com.s3.testCases.TCAddSportsModule</td>
+<td></td>
+<td>116</td>
+<td>com.s3.testCases.TCAddSportsModule@6e06451e</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddBillPayModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddBillPayModule</td>
+<td></td>
+<td>144</td>
+<td>com.s3.testCases.TCAddBillPayModule@ff5b51f</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddBusScheduleModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddBusScheduleModule</td>
+<td></td>
+<td>145</td>
+<td>com.s3.testCases.TCAddBusScheduleModule@73846619</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddCampusJobModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddCampusJobModule</td>
+<td></td>
+<td>147</td>
+<td>com.s3.testCases.TCAddCampusJobModule@69ea3742</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddD2LModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddD2LModule</td>
+<td></td>
+<td>147</td>
+<td>com.s3.testCases.TCAddD2LModule@5bcab519</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddFacebookModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddFacebookModule</td>
+<td></td>
+<td>147</td>
+<td>com.s3.testCases.TCAddFacebookModule@e45f292</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddFinancialAidModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddFinancialAidModule</td>
+<td></td>
+<td>148</td>
+<td>com.s3.testCases.TCAddFinancialAidModule@6fd02e5</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddHoldsModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddHoldsModule</td>
+<td></td>
+<td>148</td>
+<td>com.s3.testCases.TCAddHoldsModule@57fffcd7</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddLibraryModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddLibraryModule</td>
+<td></td>
+<td>149</td>
+<td>com.s3.testCases.TCAddLibraryModule@13805618</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddTwitterModule.addPreDefinedWebModule()'><b>addPreDefinedWebModule</b><br>Test class: com.s3.testCases.TCAddTwitterModule</td>
+<td></td>
+<td>148</td>
+<td>com.s3.testCases.TCAddTwitterModule@4566e5bd</td></tr>
+<tr>
+<td title='com.s3.testCases.TCAddWebModules.addWebModule()'><b>addWebModule</b><br>Test class: com.s3.testCases.TCAddWebModules</td>
+<td></td>
+<td>130</td>
+<td>com.s3.testCases.TCAddWebModules@56ac3a89</td></tr>
+<tr>
+<td title='com.s3.testCases.TCDeleteAddedModule.deleteModule()'><b>deleteModule</b><br>Test class: com.s3.testCases.TCDeleteAddedModule</td>
+<td></td>
+<td>43</td>
+<td>com.s3.testCases.TCDeleteAddedModule@6e1567f1</td></tr>
+<tr>
+<td title='com.s3.testCases.TCSettings.settingsData()'><b>settingsData</b><br>Test class: com.s3.testCases.TCSettings</td>
+<td></td>
+<td>127</td>
+<td>com.s3.testCases.TCSettings@cb644e</td></tr>
+<tr>
+<td title='com.s3.testCases.TCStyle.style()'><b>style</b><br>Test class: com.s3.testCases.TCStyle</td>
+<td></td>
+<td>39</td>
+<td>com.s3.testCases.TCStyle@3159c4b8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.s3.testCases.TCAddCoursesModule.AddCoursesModule()'><b>AddCoursesModule</b><br>Test class: com.s3.testCases.TCAddCoursesModule</td>
+<td></td>
+<td>0</td>
+<td>com.s3.testCases.TCAddCoursesModule@2f686d1f</td></tr>
+</table><p>
+</body>
+</html>

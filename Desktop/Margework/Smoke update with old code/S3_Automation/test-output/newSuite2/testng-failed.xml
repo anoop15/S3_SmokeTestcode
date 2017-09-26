@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [newSuite2]" parallel="none">
+  <listeners>
+    <listener class-name="com.s3.utility.RetryListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.s3.testCases.TCAddAppModule">
+        <methods>
+          <include name="LogConfi"/>
+          <include name="AddAppModule"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddAppModule -->
+      <class name="com.s3.testCases.TCAddWebModules">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddWebModules -->
+      <class name="com.s3.testCases.TCAddBurserModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddBurserModule -->
+      <class name="com.s3.testCases.TCUsers">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCUsers -->
+      <class name="com.s3.testCases.TCAddAdmissionsModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddAdmissionsModule -->
+      <class name="com.s3.testCases.TCManageClients">
+        <methods>
+          <include name="close"/>
+          <include name="LogConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCManageClients -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [newSuite2] -->

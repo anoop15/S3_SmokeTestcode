@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="153652" started-at="2017-09-22T14:33:33Z" finished-at="2017-09-22T14:36:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="153652" started-at="2017-09-22T14:33:33Z" finished-at="2017-09-22T14:36:06Z">
+      <class name="com.s3.testCases.TCAddCoursesModule">
+        <test-method status="PASS" signature="loginConfiguration()[pri:0, instance:com.s3.testCases.TCAddCoursesModule@18be83e4]" name="loginConfiguration" is-config="true" duration-ms="10062" started-at="2017-09-22T20:03:33Z" finished-at="2017-09-22T20:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginConfiguration -->
+        <test-method status="PASS" signature="AddCoursesModule()[pri:0, instance:com.s3.testCases.TCAddCoursesModule@18be83e4]" name="AddCoursesModule" duration-ms="137063" started-at="2017-09-22T20:03:43Z" finished-at="2017-09-22T20:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCoursesModule -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.s3.testCases.TCAddCoursesModule@18be83e4]" name="close" is-config="true" duration-ms="6506" started-at="2017-09-22T20:06:00Z" finished-at="2017-09-22T20:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.s3.testCases.TCAddCoursesModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite" parallel="false">
+	<test name="Login">
+		
+	
+			 <classes>
+				 <class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerPagedisplay" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerUIVerification" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerCreateNewPartnerVisiblity" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManageUserCreateNewPartnerUIVerification" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerMandatoryfieldsCreatePartner" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerCreateNewPartnerInputVerification" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerCreateDuplicatePartner" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerCreateNewPartner" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerElementsOnCreateNewPartner" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerCreateNewPartnerOnlistpage" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerVerifySortingPartnerList" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerMessageInvalidSearch" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerValidSearchPartner" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerElementPresentOnList" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerEditPartnerVisiblity" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerPrefilledNameOnEditPartner" />
+				<class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerEditPartnerfunctionality" />
+				
+				
+			</classes> 
+	
+	
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

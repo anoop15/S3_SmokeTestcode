@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UsersSuite]">
+  <test name="User Test Suite(failed)">
+    <classes>
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MendetoryFields">
+        <methods>
+          <include name="Setup"/>
+          <include name="SearchUserVerification"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MendetoryFields -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersRequiredfields_verification_NewUser">
+        <methods>
+          <include name="RequiredFieldsVerification"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersRequiredfields_verification_NewUser -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersCreate_NewUser_popupVerification">
+        <methods>
+          <include name="CreateNewUserPopupVerification"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersCreate_NewUser_popupVerification -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MismatchPasswordError">
+        <methods>
+          <include name="Setup"/>
+          <include name="SearchUserVerification"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_MismatchPasswordError -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersSearchUser">
+        <methods>
+          <include name="Setup"/>
+          <include name="SearchUserVerification"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersSearchUser -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersDeleteUserConfirmationMessage_UI">
+        <methods>
+          <include name="Setup"/>
+          <include name="DeleteUserconfirmationMessage"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersDeleteUserConfirmationMessage_UI -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersDeleteUser">
+        <methods>
+          <include name="Setup"/>
+          <include name="DeleteuserVerification"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersDeleteUser -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersEditUser">
+        <methods>
+          <include name="EditUserVerification"/>
+          <include name="Main"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersEditUser -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_onProfilepage">
+        <methods>
+          <include name="NewUseronProfilePage"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_onProfilepage -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser">
+        <methods>
+          <include name="CreateNewUserVerification"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersSearchInvalidUser">
+        <methods>
+          <include name="SearchUserVerification"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersSearchInvalidUser -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupVisiblityVerification">
+        <methods>
+          <include name="SearchUserVerification"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupVisiblityVerification -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersUserProfileElementVerification">
+        <methods>
+          <include name="UserProfilePageVerification"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersUserProfileElementVerification -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupUIVerification">
+        <methods>
+          <include name="SearchUserVerification"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersChangePasswordPopupUIVerification -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_ValidInput">
+        <methods>
+          <include name="SearchUserVerification"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersChangePassword_ValidInput -->
+      <class name="com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_UI_verification">
+        <methods>
+          <include name="Setup"/>
+          <include name="NewUserUIVerification"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Users.Test_UsersCreateNewUser_UI_verification -->
+    </classes>
+  </test> <!-- User Test Suite(failed) -->
+</suite> <!-- Failed suite [UsersSuite] -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginSuite]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerEditPartnerVisiblity">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerEditPartnerVisiblity -->
+      <class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerPrefilledNameOnEditPartner">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerPrefilledNameOnEditPartner -->
+      <class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerMessageInvalidSearch">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterMethod"/>
+          <include name="ManagePartnerVerifyMessageonInvalidSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerMessageInvalidSearch -->
+      <class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerMandatoryfieldsCreatePartner">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerMandatoryfieldsCreatePartner -->
+      <class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerValidSearchPartner">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerValidSearchPartner -->
+      <class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerEditPartnerfunctionality">
+        <methods>
+          <include name="ManagePartnerEditPartner" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerEditPartnerfunctionality -->
+      <class name="com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerElementPresentOnList">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.s3.TestCasesPhase2.Admin.Test_AdminManagePartnerElementPresentOnList -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

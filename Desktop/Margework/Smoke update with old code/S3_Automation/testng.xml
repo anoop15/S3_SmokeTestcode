@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite2" parallel="none">
+	<test name="Test">
+		<classes>
+			<class name="com.s3.testCases.TCLogin" />
+			<class name="com.s3.testCases.TCManagePartners" />
+			<class name="com.s3.testCases.TCManageClients" />
+			<class name="com.s3.testCases.TCUsers" />
+			<class name="com.s3.testCases.TCAddAdmissionsModule" /> 
+			<class name="com.s3.testCases.TCAddWebModules" />
+			<class name="com.s3.testCases.TCAddAppModule" />
+			<class name="com.s3.testCases.TCAddBurserModule" />
+			<class name="com.s3.testCases.TCAddCoursesModule" />
+			<class name="com.s3.testCases.TCAddDiningHallModule" />
+			<class name="com.s3.testCases.TCAddDirectoryModule" />
+			<class name="com.s3.testCases.TCAddEmergencyModule" />
+			<class name="com.s3.testCases.TCAddEventsModule" />
+			<class name="com.s3.testCases.TCAddImageGalleryModule" />
+			<class name="com.s3.testCases.TCAddMapsModule" />
+			<class name="com.s3.testCases.TCAddAdmittedlyModule" />
+			<class name="com.s3.testCases.TCAddNewsModule" />
+			<class name="com.s3.testCases.TCAddVideosModule" />
+			<class name="com.s3.testCases.TCAddSportsModule" />
+			<class name="com.s3.testCases.TCAddPeopleSoftModule" />
+			<class name="com.s3.testCases.TCAddRSSModules" />
+			<class name="com.s3.testCases.TCStyle" />
+			<class name="com.s3.testCases.TCSettings" />
+			<class name="com.s3.testCases.TCInfo" />
+			<class name="com.s3.testCases.TCEditMyApplications" />
+			<class name="com.s3.testCases.TCCopyMyAppliction" />
+			<class name="com.s3.testCases.TCDeleteMyApplication" />
+			<class name="com.s3.testCases.TCAddBannerEnrollmentModule" />
+			<class name="com.s3.testCases.TCAddBillPayModule" />
+			<class name="com.s3.testCases.TCAddBusScheduleModule" />
+			<class name="com.s3.testCases.TCAddCampusJobModule" />
+			<class name="com.s3.testCases.TCAddD2LModule" />
+			<class name="com.s3.testCases.TCAddFacebookModule" />
+			<class name="com.s3.testCases.TCAddFinancialAidModule" />
+			<class name="com.s3.testCases.TCAddHoldsModule" />
+			<class name="com.s3.testCases.TCAddLibraryModule" />
+			<class name="com.s3.testCases.TCAddTwitterModule" />
+			<class name="com.s3.testCases.TCDeleteAddedModule" />
+			<class name="com.s3.testCases.TCAddDashboardModule" />
+		<class name="com.s3.utility.SendSmokeReport" />   
+		</classes>
+	</test> 
+			<listeners>
+        <listener class-name="com.s3.utility.RetryListener"/>
+             </listeners>
+</suite> 

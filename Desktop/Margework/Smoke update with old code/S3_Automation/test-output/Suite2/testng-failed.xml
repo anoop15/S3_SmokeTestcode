@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]" parallel="none">
+  <listeners>
+    <listener class-name="com.s3.utility.RetryListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.s3.testCases.TCAddHoldsModule">
+        <methods>
+          <include name="close"/>
+          <include name="logConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddHoldsModule -->
+      <class name="com.s3.testCases.TCAddCoursesModule">
+        <methods>
+          <include name="AddCoursesModule"/>
+          <include name="loginConfiguration"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddCoursesModule -->
+      <class name="com.s3.testCases.TCInfo">
+        <methods>
+          <include name="loginConfiguration"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCInfo -->
+      <class name="com.s3.testCases.TCAddPeopleSoftModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="addNewPeopleSoftModule"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddPeopleSoftModule -->
+      <class name="com.s3.testCases.TCCopyMyAppliction">
+        <methods>
+          <include name="LogConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCCopyMyAppliction -->
+      <class name="com.s3.testCases.TCAddBurserModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddBurserModule -->
+      <class name="com.s3.testCases.TCAddDashboardModule">
+        <methods>
+          <include name="close"/>
+          <include name="logConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddDashboardModule -->
+      <class name="com.s3.testCases.TCAddFinancialAidModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddFinancialAidModule -->
+      <class name="com.s3.testCases.TCAddD2LModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddD2LModule -->
+      <class name="com.s3.testCases.TCAddFacebookModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddFacebookModule -->
+      <class name="com.s3.testCases.TCAddNewsModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddNewsModule -->
+      <class name="com.s3.testCases.TCAddDirectoryModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddDirectoryModule -->
+      <class name="com.s3.testCases.TCAddEventsModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddEventsModule -->
+      <class name="com.s3.testCases.TCAddImageGalleryModule">
+        <methods>
+          <include name="close"/>
+          <include name="loginConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddImageGalleryModule -->
+      <class name="com.s3.testCases.TCAddAdmittedlyModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddAdmittedlyModule -->
+      <class name="com.s3.testCases.TCAddWebModules">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddWebModules -->
+      <class name="com.s3.testCases.TCAddBannerEnrollmentModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddBannerEnrollmentModule -->
+      <class name="com.s3.testCases.TCAddEmergencyModule">
+        <methods>
+          <include name="LogConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddEmergencyModule -->
+      <class name="com.s3.testCases.TCAddSportsModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddSportsModule -->
+      <class name="com.s3.testCases.TCAddRSSModules">
+        <methods>
+          <include name="close"/>
+          <include name="logConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddRSSModules -->
+      <class name="com.s3.testCases.TCDeleteAddedModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCDeleteAddedModule -->
+      <class name="com.s3.testCases.TCAddMapsModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddMapsModule -->
+      <class name="com.s3.testCases.TCSettings">
+        <methods>
+          <include name="loginConfiguration"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCSettings -->
+      <class name="com.s3.testCases.TCAddLibraryModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddLibraryModule -->
+      <class name="com.s3.testCases.TCAddTwitterModule">
+        <methods>
+          <include name="close"/>
+          <include name="logConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddTwitterModule -->
+      <class name="com.s3.testCases.TCDeleteMyApplication">
+        <methods>
+          <include name="close"/>
+          <include name="LogConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCDeleteMyApplication -->
+      <class name="com.s3.testCases.TCAddBillPayModule">
+        <methods>
+          <include name="close"/>
+          <include name="logConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddBillPayModule -->
+      <class name="com.s3.testCases.TCAddVideosModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddVideosModule -->
+      <class name="com.s3.testCases.TCAddDiningHallModule">
+        <methods>
+          <include name="LogConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddDiningHallModule -->
+      <class name="com.s3.testCases.TCAddCampusJobModule">
+        <methods>
+          <include name="close"/>
+          <include name="logConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddCampusJobModule -->
+      <class name="com.s3.testCases.TCAddAppModule">
+        <methods>
+          <include name="LogConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddAppModule -->
+      <class name="com.s3.testCases.TCAddBusScheduleModule">
+        <methods>
+          <include name="logConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCAddBusScheduleModule -->
+      <class name="com.s3.testCases.TCStyle">
+        <methods>
+          <include name="LogConfi"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCStyle -->
+      <class name="com.s3.testCases.TCEditMyApplications">
+        <methods>
+          <include name="close"/>
+          <include name="LogConfi"/>
+        </methods>
+      </class> <!-- com.s3.testCases.TCEditMyApplications -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
